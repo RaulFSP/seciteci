@@ -1,7 +1,8 @@
 # seciteci
 repositório remoto para atividades realizadas no curso técnico de desenvolvimento de sistemas.
 ---
-professores
--[fabiano](./fabiano)
--[fabiano](./humberto)
--[fabiano](./marcio)
+## professores
+---
+-[fabiano](./fabiano) <br>
+-[humberto](./humberto) <br>
+-[marcio](./marcio) <br>
