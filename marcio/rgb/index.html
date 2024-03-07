@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section id="cor">
+            <p id="legenda">RGB(<span id="valorRed">#</span>,<span id="valorGreen">#</span>,<span id="valorBlue">#</span>)</p>
+        </section>
+        <section id="menu">
+            <label for="red">Red</label>
+            <input type="range" id="red" min="1" max="255" value="127" step="1" oninput="alterar()">
+            <label for="green">Green</label>
+            <input type="range" id="green" min="1" max="255" value="101" step="1" oninput="alterar()">
+            <label for="blue">Blue</label>
+            <input type="range" id="blue" min="1" max="255" value="99" step="1" oninput="alterar()">
+            
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

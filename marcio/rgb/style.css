@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --font-principal: Montserrat;
+}
+
+body{
+    background-color: lightblue;   
+    font-family: var(--font-principal);
+}
+main{
+    margin: auto;
+    width: 600px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+section#cor{
+    width: 400px;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+section#menu{
+    display: flex;
+    flex-direction: column;
+}
+input[type="range"]{
+    accent-color: green;
+}

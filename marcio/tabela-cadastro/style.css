@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: beige;
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid black
+}
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+section > input[type="text"], section > input[type="number"]{
+    display: block;
+    width: 450px;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+section > input[type="button"]{
+    width: 200px;
+    line-height: 1.5em;
+    font-size: 1em;
+    align-self: center;
+    margin: 20px auto;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
